@@ -9,3 +9,11 @@ export default function Home() {
     </>
   )
 }
+
+Home.getLayout = function getLayout(page) {
+  return (
+    <>
+      <div style={{  backgroundColor: 'red' }}>{page}</div>
+    </>
+  )
+}
