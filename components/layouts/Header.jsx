@@ -8,6 +8,7 @@ export default function Header() {
             <Link href="/profile/me">My Profile</Link>
             <Link href="/posts/csr">CSR Posts</Link>
             <Link href="/posts">SSR Posts</Link>
+            <Link href="/photos">Photos</Link>
         </nav>
     )
 }
